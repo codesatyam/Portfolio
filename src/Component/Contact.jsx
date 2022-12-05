@@ -76,7 +76,7 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <button type="submit" class="butt btn btn-light">
+            <button  type="submit" class="butt btn btn-light">
               Send
             </button>
           </form>

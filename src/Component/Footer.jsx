@@ -13,8 +13,8 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
               <div>
-                <p>MMMUT,Gorakhpur</p>
-                <p>India-273010</p>
+                <p>Bayara,Khalilabad,Sant kabir Nagar</p>
+                <p>India-272173</p>
               </div>
             </div>
             <div className="phone">
