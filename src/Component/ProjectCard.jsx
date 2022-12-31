@@ -13,7 +13,6 @@ const ProjectCard = (props) => {
               </div>
             </div>
           </div>
-
           <div class="slide slide2">
             <div class="content bg-dark">
               <h5>{props.subject}</h5>

@@ -18,7 +18,7 @@ const About = () => {
           <div className="right-about">
           <h3>About me</h3>
             <div className="intr">
-            <p>Hi,I am 3rd Year student of B.Tech</p> <p> in Computer Science & Engineerig </p>
+            <p>Hi,I am 3rd Year student of B.Tech</p> <p> in Computer Science & Engineering </p>
             </div>
             <div className="profession">
             <p >I am Web developer and competitive programmer.
