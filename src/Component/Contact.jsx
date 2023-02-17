@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import back from "../image/back.jpg";
- 
+// import back from "../image/back.jpg";
+import "./contact.css";
 // const msg=document.getElementById('mesg');
 // form.addEventListener("submit", (e) => {
 // e.preventDefault();
@@ -13,80 +13,69 @@ import back from "../image/back.jpg";
 //   },3000)
 //   document.getElementById("client").reset();
 
-// })
-// .catch((error) => console.error("Error!", error.message));
-// });
 const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="back-sid">
-        <img className="back" src={back} alt="Error" />
-      </div>
-      <div className="head-contact">
-        <div className="con">
-          <form name="submit-to-google-sheet" id='client'>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
-                Name
-              </label>
-              <input
-                type="text"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                name="Name"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
-                Email address
-              </label>
-              <input
-                type="email"
-                name="Email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
-                Phone No.
-              </label>
-              <input
-                type="tel"
-                name="Phone"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">
-                Message
-              </label>
-              <textarea
-                class="form-control"
-                name="Message"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-            <button  type="submit" class="butt btn btn-light">
-              Send
-            </button>
-          </form>
-          <span id="mesg"></span>
+       
+      <div className="background">
+  <div className="container">
+    <div className="screen">
+      <div className="screen-header">
+        <div className="screen-header-left">
+          <div className="screen-header-button close"></div>
+          <div className="screen-header-button maximize"></div>
+          <div className="screen-header-button minimize"></div>
+        </div>
+        <div className="screen-header-right">
+          <div className="screen-header-ellipsis"></div>
+          <div className="screen-header-ellipsis"></div>
+          <div className="screen-header-ellipsis"></div>
         </div>
       </div>
+      <div className="screen-body">
+        <div className="screen-body-item left">
+          <div className="app-title">
+            <span>CONTACT US</span>
+          </div>
+          <div className="messageto">
+          We are here to answer any questions you may have about our combadi experiences. Reach out to us and we'll respond as soon as we can.
+          </div>
+          {/* <div className="messageto">
+          Even if there is something you have always wanted to experience and can't find it on combadi, let us know and we promise we'll do our best to find it for you and send you there.
+          </div> */}
+          <div className="app-contact">CONTACT INFO : +91 79 055 628 832</div>
+        </div>
+        <div className="screen-body-item">
+          <div className="app-form">
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="NAME" />
+            </div>
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="EMAIL"/>
+            </div>
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="CONTACT NO"/>
+            </div>
+            <div className="app-form-group message">
+              <input className="app-form-control" placeholder="MESSAGE"/>
+            </div>
+            <div className="app-form-group buttons">
+              <button className="app-form-button">CANCEL</button>
+              <button className="app-form-button">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+  </div>
+</div>
+ 
     </>
   );
 };
- 
+
 // const scriptURL ="https://script.google.com/macros/s/AKfycbxjs6gCTrKjUT0tVn13475Xcg-KRArfdRplAILIVk3h-yvCb7gM9MDFIXH7ppbBVOeu/exec";
 // const form = document.forms["submit-to-google-sheet"];
 //  const msg=document.getElementById('mesg');

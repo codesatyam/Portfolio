@@ -19,22 +19,22 @@ const Home = () => {
           <h1 > Hi, I'm<strong className="brand-name"> Satyam Chaurasiya</strong></h1>
             <h1>Web developer and Competitive Programmer</h1>
           <ul className="d-flex social">
-            <li>
+            <li className="sociback">
               <a
                 href="https://www.linkedin.com/in/satyam-chaurasiya-903039213/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={ldin} alt="" />
+                <img   src={ldin} alt="" />
               </a>
             </li>
-            <li>
+            <li className="sociback">
               <a
                 href="https://github.com/codesatyam"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={Github} alt="" />
+                <img   src={Github} alt="" />
               </a>
             </li>
             <li>
@@ -57,15 +57,15 @@ const Home = () => {
             </li>
           </ul>
           <div className="link ">
-            <a
+            <a 
               href="https://drive.google.com/file/d/1-fJstQb0ek6rcolZ-id6uixQ70nwif7Z/view"
-              className="btn-get-started"
+              className="btn-get-started extra"
             >
               See Resume
             </a>
-            <NavLink
+            <NavLink  
               to="/contact"
-              className="btn-get-started "
+              className="btn-get-started extra"
             >
               Contact me
             </NavLink>

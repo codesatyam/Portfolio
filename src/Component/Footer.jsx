@@ -36,9 +36,10 @@ const Footer = () => {
                   </h4>
                 </div>
               </div>
-              <div className="right">
-               <h4><b>About me</b>  </h4>
-                <p>This is me Satyam Chaurasiya Web developer. <br />  I enjoy learning new things and working on project</p>
+              <div className="right ">
+              <div>
+              <h4><b>About me</b>  </h4>
+                <p>Myself Satyam Chaurasiya Web developer. <br />  I enjoy learning new things and working on project.</p>
                 <div className="social-link">
                 <a href="https://www.facebook.com/satyam.chaurasiya.351/"><FaFacebook
                       size={30}
@@ -55,6 +56,8 @@ const Footer = () => {
                       
                 </div>
               </div>
+              </div>
+               
         </div>
         
       </div>

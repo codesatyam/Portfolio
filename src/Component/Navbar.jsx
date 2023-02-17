@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import resume from "./RESUME0.pdf";
-import logo from '../image/logo.png'
+import logo from '../image/logo3.png'
 const Navbar = () => {
   return (
     <>
