@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.440fbda3.css",
+    "main.js": "/Portfolio/static/js/main.ca2bfc3d.js",
+    "static/media/Instagram.gif": "/Portfolio/static/media/Instagram.c2eeaace284874350ac6.gif",
+    "static/media/Linkedin.gif": "/Portfolio/static/media/Linkedin.a099d59d21546f3fe427.gif",
+    "static/media/back.jpg": "/Portfolio/static/media/back.77663d10b2ed61d235f4.jpg",
+    "static/media/weather.jpg": "/Portfolio/static/media/weather.9be3c9c18d672da8fe2a.jpg",
+    "static/media/Github.gif": "/Portfolio/static/media/Github.547f19d651bbf653f37a.gif",
+    "static/media/Twitter.gif": "/Portfolio/static/media/Twitter.17d378506880d28f7bc7.gif",
+    "static/media/pic.jpeg": "/Portfolio/static/media/pic.78e744cdb85bf070bab4.jpeg",
+    "static/media/logo3.png": "/Portfolio/static/media/logo3.ad7b6a63ffc5113449f5.png",
+    "static/media/portfolio.jpg": "/Portfolio/static/media/portfolio.ef4c1d6883baa7013336.jpg",
+    "static/media/RESUME0.pdf": "/Portfolio/static/media/RESUME0.ff76460d5885fa3be891.pdf",
+    "static/media/calci.jpg": "/Portfolio/static/media/calci.2b63301fcb35876ac01a.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.440fbda3.css.map": "/Portfolio/static/css/main.440fbda3.css.map",
+    "main.ca2bfc3d.js.map": "/Portfolio/static/js/main.ca2bfc3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.440fbda3.css",
+    "static/js/main.ca2bfc3d.js"
+  ]
+}
